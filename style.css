@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Regular.woff2') format('woff2'),
+         url('ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Regular.woff') format('woff'),
+         url('ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+ @font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Medium.woff2') format('woff2'),
+         url('ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Medium.woff') format('woff'),
+         url('ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+
+
+  *{
+    font-family: 'ClashDisplay-Regular' ;
+   
+  }
+.title{
+    font-size: 11em;
+    margin-top: 0.8em;
+}
+.specialization{
+   font-family: "ClashDisplay-Medium";
+    font-size: 20px;
+    /* position: relative; */
+    /* top: 190px; */
+}
+.detail{
+    font-family: "ClashDisplay-Medium";
+    font-size: 30px;
+    color: rgb(87, 88, 90);
+    line-height: 1.3em;
+    margin-top: 50px;
+}
+#one{
+    font-family: "ClashDisplay-Medium";
+}
+.work{
+    background-image: url(Rectangle\ 1@2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+    background-position-x: 340px;
+    background-position-y: 20px;
+}
+
+.btn{
+    font-size: 0.6rem;
+}
+.btn span{
+    font-size: 0.5rem;
+}
+
+@media (min-width: 992px) {  
+    .col-lg-4 {
+      margin-left: 19em;  
+    }
+  
+  }
+@media screen and (max-width: 991px){
+    .work{
+        background-image: url(Rectangle\ 1@2x.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 400px;
+        background-position-x: 140px;
+        background-position-y: 70px;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .work{
+        background-image: none;
+        
+    }
+    .title{
+        font-size: 8em;
+       }
+     
+   
+}
+
